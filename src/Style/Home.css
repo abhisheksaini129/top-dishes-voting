@@ -1,0 +1,202 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dish-container{
+    height: 90%;
+    width: 40%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+.dish-container::-webkit-scrollbar {
+        width: 10px;
+}
+.dish-container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+      }
+.dish-container::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+      }
+.dish{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 60%;
+    height:70%;
+    color: rgb(158, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    box-shadow: rgba(12, 95, 9, 0.521) 0px 5px 15px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dish-img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.dish-name{
+    font-size: 1.3rem;
+    width: 100%;
+    margin:.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+.dish-description{
+    margin: 0;
+    padding: .5rem;
+    font-size: 1rem;
+    height: 25%;
+    width: 100%;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+.rank-button{
+    width: 60%;
+    background-color:rgb(68, 192, 68);
+    border: none;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(158, 22, 22);
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.rank-button:hover{
+    transition: .5s;
+    background-color: rgb(158, 22, 22);
+    color: rgb(68, 192, 68);
+    transform: scale(1.1);
+}
+/* /////////////////TAB - 2 STYLE PROPERTIES ////////////// */
+
+.top-dish-head{
+    width: 100%;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    font-size: 1.5rem;
+}
+
+.top-dish{
+    width: 90%;
+    height: 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.top-dish-img{
+    width:30%;
+    height: 100%;
+    margin: 0;
+}
+.data-container{
+    width: 40%;
+    box-sizing: border-box;
+    padding: .5rem;
+  
+}
+.top-dish-name{
+    font-size: 1.1rem;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+
+}
+.top-dish-points{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(158, 22, 22);;
+}
+.button-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-rank-button{
+    width: 100%;
+    background-color:rgb(68, 192, 68);
+    border: none;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(158, 22, 22);
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+
+
+/* ////////////logout button//////////////// */
+
+.logout-container{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.logout{
+    width: 70%;
+}
+
+/* //////////////login-message//////////// */
+
+.login-message{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.changeRank-container{
+    background-color: rgba(206, 187, 187, 0.418);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;    
+    display: none;
+}
+.rankChanger{
+    width: 20%;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-rank-button:hover{
+    transition: .5s;
+    background-color: rgb(158, 22, 22);
+    color: rgb(68, 192, 68);
+    transform: scale(1.1);
+}
